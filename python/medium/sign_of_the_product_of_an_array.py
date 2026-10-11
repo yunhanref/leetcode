@@ -8,7 +8,6 @@ class Solution:
             return 1
         
     def arraySign(self, nums: list[int]) -> int:
-        #! multiply all nums return int
         start = 1
         if nums != []:
             for i in nums:
